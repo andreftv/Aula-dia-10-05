@@ -1,0 +1,27 @@
+/*Aula CSS - FlexBox e outros*/
+body {
+    margin: 0;
+    font-family: sans-serif;
+
+}
+header, footer {
+    background-color: rgb(9, 11, 15);
+    color: rgb(247, 245, 245);
+    text-align: center;
+    padding: 1rem;
+}
+
+.card {
+    background-color: rgb(243, 237, 237);
+    padding: 1rem;
+    border: 1px solid #ccc;
+    margin: 0,5rem;
+    width: 200px;
+}
+.container {
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
